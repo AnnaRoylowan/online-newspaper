@@ -1,0 +1,154 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+
+
+}
+
+h1,
+h2,
+p,
+h3 {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+/* header */
+.header {
+    background-color: #aa43a2;
+    padding: 30px 0;
+
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-list {
+    display: flex;
+    gap: 20px;
+}
+
+.header-logo {
+    color: #fec830;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.header-item {
+    padding: 10px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    ;
+}
+
+.header-link {
+    color: black;
+    font-size: 18px;
+}
+
+.header-link :hover {
+    background-color: white;
+}
+
+/* main */
+main {
+    padding: 80px 0;
+    background-color: #fdd875;
+
+}
+.stady-container {
+    background-color: #f7f7f7;
+    padding: 30px 30px;
+    border: 1px solid gray;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    ;
+    border-radius: 20px;
+    font-size: 20px;
+
+}
+
+.stady-title {
+    text-align: center;
+}
+
+.stady-img {
+    margin: 30px;
+    display: block;
+    width: 800px;
+}
+
+.stady-text {
+    margin-bottom: 30px;
+}
+
+.stady-list {
+    margin-left: 70px;
+    margin-bottom: 40px;
+}
+.stady-item{
+    list-style: square;
+}
+
+/* footer */
+.footer {
+    background-color: #aa43a2;
+    padding: 30px 0;
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-list {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-logo {
+    color: #fec830;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.footer-item {
+    padding: 10px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    ;
+}
+
+.footer-link {
+    color: black;
+    font-size: 18px;
+}
+
+.footer-link :hover {
+    background-color: white;
+}
