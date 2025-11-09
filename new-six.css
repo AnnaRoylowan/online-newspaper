@@ -96,12 +96,14 @@ main {
 .castle-title {
     text-align: center;
     margin-bottom: 30px;
+   
 }
 
 .castle-img {
     margin: 30px;
     display: block;
     width: 1000px;
+    margin: auto;
 }
 
 .castle-text {

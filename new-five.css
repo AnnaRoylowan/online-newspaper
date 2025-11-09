@@ -89,9 +89,14 @@ main {
 
 }
 
-.cathedral-title {
+.cathedral-subtitle {
     text-align: center;
+    padding-bottom: 20px;
 
+}
+.cathedral-title{
+    text-align: center;
+    padding-top: 15px;
 }
 
 .cathedral-text {
